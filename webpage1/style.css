@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+ 
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content:right;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.wel{
+   
+    color: rgb(255, 255, 255);
+    height: 400px;
+    width: 100%;
+    background-image: url('img8.jpeg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   text-align: left;
+   padding-top: 100px;
+}
+
+.butt
+{
+    background-color: rgb(144, 188, 214);
+   margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+.ser
+{
+    text-align: center;
+   
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(206, 203, 199);
+}
+
+div{
+    margin-top: 20px;
+}
+
+.forall{
+
+    text-align: center;
+    
+   background-color: rgb(160, 160, 192);
+    
+}
+
+.for{
+ 
+   background-color: rgb(156, 198, 205);
+   border-radius: 5px;
+}
+
+.butt1
+{
+    background-color: rgb(33, 14, 236);
+   
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+.cont
+{
+    text-align: center;
+   
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(187, 201, 195);
+}
+
+
+footer {
+  background-color: #c8c1c1;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  
+}
