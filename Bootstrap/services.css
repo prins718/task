@@ -1,0 +1,33 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .hero {
+      background: url('imag2.jpeg') center center / cover no-repeat;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .service-card {
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      padding: 20px 0;
+    }
