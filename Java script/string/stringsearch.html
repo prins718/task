@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The indexOf() Method</h2>
+
+
+<p id="demo"></p>
+
+<script>
+let text = "Please enter the name . my name is prins";
+let index = text.indexOf("name");
+document.getElementById("demo").innerHTML = index; 
+</script>
+
+<hr>
+<h2>The lastindexOf Method</h2>
+
+
+<p id="demo1"></p>
+
+<script>
+let text1 = "Please enter the name . my name is prins";
+let index1 = text1.lastIndexOf("name");
+document.getElementById("demo1").innerHTML = index1; 
+</script>
+
+
+<hr>
+<h2>The search Method</h2>
+
+
+<p id="demo2"></p>
+
+<script>
+let text2 = "Please enter the name . my name is prins";
+let index2 = text2.search("name");
+document.getElementById("demo2").innerHTML = index2; 
+</script>
+
+
+<hr>
+<h2>The include Method</h2>
+
+
+<p id="demo3"></p>
+
+<script>
+let text3 = "Please enter the name . my name is prins";
+document.getElementById("demo3").innerHTML = text3.includes("prins"); 
+</script>
+
+<hr>
+
+<h2>The startsWith Method</h2>
+
+<p id="demo4"></p>
+
+<script>
+let text4 = "Hello world, welcome to the universe.";
+document.getElementById("demo4").innerHTML = text4.startsWith("world", 6);
+</script>
+
+<hr>
+
+<h2>The endWith Method</h2>
+
+<p id="demo5"></p>
+
+<script>
+let text5 = "Hello world, welcome to the universe.";
+document.getElementById("demo5").innerHTML = text5.endsWith("universe.");
+</script>
+
+<hr>
+
+<h1>JavaScript Template Strings</h1>
+
+<p id="demo6"></p>
+
+
+
+<script>
+let firstName = "Prins";
+let lastName = "Desai";
+
+let text6 = `Welcome ${firstName}, ${lastName}!`;
+
+document.getElementById("demo6").innerHTML = text6;
+</script>
+
+</body>
+</html>
