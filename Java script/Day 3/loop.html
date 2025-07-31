@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>For in loop</h3>
+<p id="demo1"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x] + "<br>"; 
+}
+
+document.getElementById("demo1").innerHTML = txt;
+</script>
+
+<hr>
+<h3>For of loop</h3>
+<p id="demo2"></p>
+
+<script>
+let language = "JavaScript";
+
+let text = "";
+for (let x of language) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo2").innerHTML = text;
+</script>
+
+<hr>
+<h3>While loop</h3>
+<p id="demo3"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+let i = 0;
+let text1 = "";
+while (cars[i]) {
+  text1 += cars[i] + "<br>";
+  i++;
+}
+
+document.getElementById("demo3").innerHTML = text1;
+</script>
+
+<hr>
+<h3>Break</h3>
+<p id="demo4"></p>
+<script>
+const cars2 = ["BMW", "Volvo", "Saab", "Ford"];
+let text3 = "";
+
+list: {
+  text3 += cars[0] + "<br>"; 
+  text3 += cars[1] + "<br>"; 
+  break list;
+  text3 += cars[2] + "<br>"; 
+  text3 += cars[3] + "<br>"; 
+}
+
+document.getElementById("demo4").innerHTML = text3;
+</script>
+
+</body>
+</html>
